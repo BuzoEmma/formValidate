@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+   .form{
+    @apply  xm:w-full xs:w-10/12  sm:w-[70%] md:w-[50%] lg:w-[40%] w-[30%]
+   }
+}
